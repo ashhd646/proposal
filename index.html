@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Prxxchi ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div class="scene-container" id="scene-container"></div>
+    <div class="container">
+        <div class="heart"></div>
+        <div class="proposal" id="step1">
+            <h1>Dear Prxxchi</h1>
+            <p class="message">Every moment with you feels like a beautiful melody. Your voice is like music to my ears, and your guitar playing makes my heart sing.</p>
+            <button class="next-btn" onclick="nextStep(1)">Continue ❤️</button>
+        </div>
+
+        <div class="proposal" id="step2" style="display: none;">
+            <div class="guitar-animation">
+                <div class="guitar">
+                    <div class="guitar-body"></div>
+                    <div class="guitar-neck"></div>
+                    <div class="strings"></div>
+                </div>
+            </div>
+            <p class="message">Just like the strings of your guitar, my heart resonates with love for you. Every note you play brings joy to my soul.</p>
+            <button class="next-btn" onclick="nextStep(2)">Continue ❤️</button>
+        </div>
+
+        <div class="proposal" id="step3" style="display: none;">
+            <div class="music-notes">
+                <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
+            </div>
+            <p class="message">Your voice is my favorite song, and I want to be the harmony to your melody. Together, we can create the most beautiful music of all - our love story.</p>
+            <p class="question">Will you be mine forever?</p>
+            <div class="buttons">
+                <button id="yesBtn">Yes, I will! ❤️</button>
+                <button id="noBtn">No</button>
+            </div>
+        </div>
+
+        <div class="celebration" id="celebration">
+            <div class="fireworks"></div>
+            <h2>Thank you for saying YES! ❤️</h2>
+            <p>You've made me the happiest person alive!</p>
+            <div class="final-message">
+                <p>Now we can make beautiful music together forever!</p>
+                <div class="floating-notes">
+                    <i class="fas fa-music"></i>
+                    <i class="fas fa-music"></i>
+                    <i class="fas fa-music"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
